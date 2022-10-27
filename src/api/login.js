@@ -27,7 +27,7 @@ export function logout() {
 
 export function fetchList(params) {
   return request({
-    url: '/admin/list',
+    url: '/admin/page',
     method: 'get',
     params: params
   })
@@ -66,7 +66,7 @@ export function deleteAdmin(id) {
 
 export function getRoleByAdmin(id) {
   return request({
-    url: '/admin/role/' + id,
+    url: '/role/find/' + id,
     method: 'get'
   })
 }
