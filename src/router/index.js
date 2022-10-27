@@ -57,7 +57,7 @@ export const asyncRouterMap = [
         path: 'updateProduct',
         name: 'updateProduct',
         component: () => import('@/views/pms/product/update'),
-        meta: {title: '修改商品', icon: 'product-add'},
+        meta: {title: '编辑商品', icon: 'product-add'},
         hidden: true
       },
       {
@@ -104,7 +104,7 @@ export const asyncRouterMap = [
         path: 'updateProductAttr',
         name: 'updateProductAttr',
         component: () => import('@/views/pms/productAttr/updateProductAttr'),
-        meta: {title: '修改商品属性'},
+        meta: {title: '编辑商品属性'},
         hidden: true
       },
       {

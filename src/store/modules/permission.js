@@ -12,8 +12,8 @@ function hasPermission(menus, route) {
       if (currMenu.icon != null && currMenu.title !== '') {
         route.meta.icon = currMenu.icon;
       }
-      if(currMenu.hidden!=null){
-        route.hidden = currMenu.hidden !== 0;
+      if(currMenu.status!=null){
+        route.hidden = currMenu.status !== 1;
       }
       if (currMenu.sort != null && currMenu.sort !== '') {
         route.sort = currMenu.sort;
